@@ -1,0 +1,348 @@
+header{ 
+	font-family: 'Brush Script MT', cursive;
+	text-align: center;
+	font-size: 20px;
+  text-shadow: 5px 5px 5px #ababab;
+    
+}
+
+Body{
+	background-color: #f9f2fa;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: 15px;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	letter-spacing:0.5px;
+	
+}
+
+a{ 
+	text-decoration: none;
+	color: #5E4A57;
+
+}
+
+ul{
+	list-style-type: none;
+	text-align: center;
+	font-weight: bold;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	background-color: white;
+	padding: 10px;
+	font-size: 17px;
+
+}
+
+
+a:link{
+	color: #5E4A57;
+}
+
+a:visited{ 
+	color:#5E4A57;
+
+}
+
+a:hover{
+	color:white;
+	background-color: #306782;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+li{
+	display: inline;
+	padding: 30px;
+
+}
+
+h2{
+	padding: 20px;
+	margin-top: 40px;
+	text-align: center;
+	color: black;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.hometab{
+	font-weight: bold;
+}
+
+#slogen{
+	font-size: 20px;
+	padding: 10px;
+	text-align: center;
+	font-style: oblique;
+	
+}
+
+
+.Mephoto img{
+	width: 60%;
+	height: auto;
+}
+
+.Mephoto{
+	text-align: center;
+	margin-bottom: 40px;
+cursor: pointer;
+}
+
+
+.morebutton{
+	background-color: white;
+  padding: 13px 30px; 
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 0;
+  text-align: center;
+  margin-left: 40%;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+ 
+}
+
+.morebutton:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+#imagesection{
+	background-color: white;
+	width: 100%;
+	height: 450px;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+
+}
+
+.mainbox{
+	position: relative;
+	margin-left: 15%;
+	
+}
+
+.mainbox img{
+	margin-top: 5%;
+
+}
+
+
+.mainbox1 {
+	position: relative;
+	margin-left: 43%;
+	margin-top: -293px;
+
+}
+
+
+.mainbox2 {
+	position: relative;
+	margin-top: -293px;
+	margin-left: 70%;
+
+}
+
+
+
+footer{
+	height: 25px;
+	background-color: white;
+	text-align: center;
+	color: darkgrey;
+	font-size: 12px;
+	margin-top: 100px;
+
+}
+
+
+@media (max-width: 700px){
+	
+	a{ color: #4A3B43;
+	   background-color:#DED6E0 ;
+
+
+	}
+	body{
+		background-color: #634F57;
+		margin-left: 20px;
+		margin-right: 20px;
+		color: white;
+
+	}
+
+	ul li{ 
+		display: block;
+		margin left: 20px;
+		margin-right: 20px;
+		padding: 20px;
+
+	}
+	
+}
+
+
+#Destination{
+	text-align: center;
+	margin-bottom: -30px;
+
+
+}
+
+#Destination img{
+	width: 5%;
+	height: auto;
+	padding: 30px;
+
+}
+
+
+#map{
+    margin-right: 50px;
+    margin-left: 50px;
+	text-align: center;
+
+}
+
+
+.worldmap{
+	text-align: center;
+	padding-bottom: 50px;
+
+}
+
+.asia1 img{
+	width: 30%;
+	padding: 40px;
+
+}
+
+
+.asia1{
+	margin-left: 20px;
+}
+
+.self img{
+	width: 70%;
+	height: auto;
+
+}
+
+.self{
+	text-align: center;
+	margin-bottom: 150px;
+}
+
+
+.selfie img{
+	width: 300px;
+	height: auto;
+	
+}
+
+.selfie {
+	position: relative;
+	margin-left: 100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.intro{
+	position: absolute;
+	width: 500px;
+	height: auto;
+	margin-left: 450px ;
+	margin-top: -390px;
+	margin-bottom: 250px;
+	font-size: 16px;
+
+
+}
+
+.personality{
+    background-color: #e6e6e6;
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+    margin: 50px;
+    font-size: 14px;
+    display: inline-block;
+    position: relative;
+
+}
+
+.features{
+	text-align: center;
+}
+
+
+.city{ 
+	text-align: center;
+
+}
+
+#hobby{
+	margin-left: 50px;
+	margin-right: 50px;
+
+}
+
+.hobby1 img{
+	width:30%
+   
+}
+
+.hobby1{
+	text-align: center;
+
+}
+
+.Photogallery {
+  margin: 70px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 200px;
+}
+
+.Photogallery:hover {
+  border: 1px solid white;
+}
+
+.Photogallery img {
+  width: 100%;
+  height: auto;
+}
+
+.mobilephoto {
+  padding: 20px;
+  text-align: center;
+}
+
+
+.boxp{
+	width: 200px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+
+#info{
+	background-color: white;
+	opacity: 0.6;
+  width: 300px;
+  height: 200px;
+  font-size: 20px;
+  margin: auto;
+  padding: 10%;
+  text-align: center;
+     
+}
+
+.ins img{
+	width: 20px;
+	height: auto;
+
+}
+
+
+
